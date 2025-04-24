@@ -1,0 +1,40 @@
+:root {
+  --bs-primary: #b8589b;
+  --bs-primary-rgb: 184, 88, 155;
+  --bs-btn-bg: #b8589b;
+  --bs-btn-border-color: #b8589b;
+  --bs-btn-hover-bg: #9a4681;
+  --bs-btn-hover-border-color: #9a4681;
+  --bs-btn-active-bg: #7d3969;
+  --bs-btn-active-border-color: #7d3969;
+  --bs-link-color: #b8589b;
+  --bs-link-hover-color: #9a4681;
+  --bs-primary-bg-subtle: #f3e5ee;
+  --bs-primary-border-subtle: #e9bbd5;
+  --bs-primary-text-emphasis: #5c2c4e;
+}
+.btn-outline-primary {
+  --bs-btn-color: #b8589b;
+  --bs-btn-border-color: #b8589b;
+  --bs-btn-hover-bg: #b8589b;
+  --bs-btn-hover-border-color: #b8589b;
+  --bs-btn-active-bg: #9a4681;
+  --bs-btn-active-border-color: #9a4681;
+}
+.custom-btn {
+  transition: all 0.3s ease;
+}
+.custom-btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.card {
+  transition: transform 0.3s ease;
+  background-color: rgb(234, 224, 244);
+}
+.card:hover {
+  transform: translateY(-10px);
+}
+
+/*# sourceMappingURL=custom.css.map */

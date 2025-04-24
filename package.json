@@ -1,0 +1,33 @@
+{
+  "name": "my-bootstrap-project",
+  "version": "1.0.0",
+  "description": "## Overview This project is a simple web application that utilizes Bootstrap for responsive design and jQuery for enhanced interactivity. It serves as a starting point for building modern web applications.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "sass scss/custom.scss css/custom.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.86.3"
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.5",
+    "braces": "^3.0.3",
+    "chokidar": "^4.0.3",
+    "detect-libc": "^1.0.3",
+    "fill-range": "^7.1.1",
+    "immutable": "^5.1.1",
+    "is-extglob": "^2.1.1",
+    "is-glob": "^4.0.3",
+    "is-number": "^7.0.0",
+    "micromatch": "^4.0.8",
+    "node-addon-api": "^7.1.1",
+    "picomatch": "^2.3.1",
+    "readdirp": "^4.1.2",
+    "source-map-js": "^1.2.1",
+    "to-regex-range": "^5.0.1"
+  }
+}

@@ -1,0 +1,44 @@
+$primary: #b8589b;
+$secondary: #6c757d;
+$success: #28a745;
+:root {
+  /* Primary color (blue -> pink) */
+  --bs-primary: #b8589b;
+  --bs-primary-rgb: 184, 88, 155;
+
+  /* Button specific overrides */
+  --bs-btn-bg: #b8589b;
+  --bs-btn-border-color: #b8589b;
+  --bs-btn-hover-bg: #9a4681;
+  --bs-btn-hover-border-color: #9a4681;
+  --bs-btn-active-bg: #7d3969;
+  --bs-btn-active-border-color: #7d3969;
+
+  /* Link color */
+  --bs-link-color: #b8589b;
+  --bs-link-hover-color: #9a4681;
+
+  /* Other components that use primary */
+  --bs-primary-bg-subtle: #f3e5ee;
+  --bs-primary-border-subtle: #e9bbd5;
+  --bs-primary-text-emphasis: #5c2c4e;
+}
+.custom-btn {
+  transition: all 0.3s ease;
+
+  &:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  }
+}
+
+.card {
+  transition: transform 0.3s ease;
+
+  background-color: rgb(174, 142, 205);
+  &:hover {
+    transform: translateY(-10px);
+  }
+}
+.btn {
+}
